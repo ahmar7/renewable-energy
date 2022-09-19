@@ -574,3 +574,38 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+.detail-area{
+    /* width: 90%; */
+    margin: 0 auto;
+    padding: 0 
+    30px;
+}
+.detail-area
+p{
+     padding: 0px;
+    margin: 0;
+}
+.mbl-view{
+    display: none;
+}
+.below-img{
+    text-align: center;
+    margin: 30px auto !important;
+  
+    /* margin-bottom: 30px !important; */
+}
+.mt-top {
+    margin-top: 10px !important;
+}
+.below-img img{
+ width: 50%;
+}
+@media (max-width:992px) {
+    .detail-area{
+        
+        padding:  0px;
+    }
+    .mbl-view{
+        display: block;
+    }
+}
